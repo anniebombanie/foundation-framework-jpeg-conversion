@@ -2,7 +2,6 @@
 node_modules
 npm-debug.log
 bower_components
-dist
 *.swp
 .cache
 .idea
@@ -16,5 +15,5 @@ package-lock.json
 package.json
 readme.md
 yarn.lock
-src
 etc
+dist/assets/js/app.js.map
