@@ -16,4 +16,3 @@ package.json
 readme.md
 yarn.lock
 etc
-dist/assets/js/app.js.map
