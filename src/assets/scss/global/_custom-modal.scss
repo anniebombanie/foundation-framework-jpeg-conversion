@@ -1,15 +1,49 @@
 .reveal {
   padding: 5rem 0;
+  width: 65%;
+  min-width: 600px;
+  font-weight: 300;
+  letter-spacing: .01rem;
 
   h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     font-weight: 300;
   }
 
-  input[type="text"] {
+  input[type="text"],
+  input[type="email"] {
     margin-top: .5rem;
     border-radius: 3px;
   }
+
+  //CUSTOM CHECKBOX STYLES
+  // input[type="checkbox"] {
+
+  // }
+
+  button i {
+    margin-right: .5rem;
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: .9rem;
+    &.or {
+      font-size: 1rem;
+      font-weight: 500;
+      margin-bottom: 2rem;
+    }
+    a {
+      font-weight: 500;
+    }
+  }
+
+  .password,
+  .password label {
+    font-size: .8rem;
+    margin-bottom: 1rem;
+  }
+
   .grid-container {
     min-width: 320px;
     width: 80%;
@@ -22,6 +56,8 @@
     margin: 0 auto;
     width: 94%;
     max-width: 94%;
-    min-height: 0;
+    min-width: 94%;
+    height: auto;
+    min-height: auto;
   }
 }
