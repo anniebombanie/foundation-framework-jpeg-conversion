@@ -1,12 +1,23 @@
 .reveal {
+  padding: 5rem 0;
+
+  h2 {
+    margin-bottom: 2rem;
+    font-weight: 300;
+  }
+
+  input[type="text"] {
+    margin-top: .5rem;
+    border-radius: 3px;
+  }
   .grid-container {
     min-width: 320px;
     width: 80%;
-
     @include breakpoint(medium) {
       max-width: 360px;
     }
   }
+
   @include breakpoint(small only) {
     margin: 0 auto;
     width: 94%;

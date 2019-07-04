@@ -104,9 +104,13 @@
       <div class="grid-container">
         <div class="grid-y grid-padding-y">
           <h2 id="signInModal">sign in</h2>
-          <div class="grid-x align-justify">
-            <button type="button" class="button"><i class="fab fa-facebook-f" aria-hidden="true"></i>Facebook</button>
-            <button type="button" class="button"><i class="fab fa-google" aria-hidden="true"></i>Google</button>
+          <div class="grid-x grid-margin-x align-justify">
+            <div class="cell small-6">
+              <button type="button" class="button expanded"><i class="fab fa-facebook-f" aria-hidden="true"></i>Facebook</button>
+            </div>
+            <div class="cell small-6">
+              <button type="button" class="button expanded"><i class="fab fa-google" aria-hidden="true"></i>Google</button>
+            </div>
           </div>
           <p class="text-center">or</p>
           <form>
@@ -126,8 +130,12 @@
               </div>
               <a href="#0">Forgot Password?</a>
             </div>
-            <button type="button" class="button">Sign In</button>
-            <p class="text-center">Haven't an account? <a href="#0">Sign up</a></p>
+            <div class="grid-x align-center">
+              <div class="cell small-6 align-center">
+                <button type="button" class="button expanded">Sign In</button>
+              </div>
+            </div>
+              <p class="text-center">Haven't an account? <a href="#0">Sign up</a></p>
           </form>
         </div>
         <button class="close-button" data-close aria-label="Close modal" type="button">
