@@ -63,4 +63,5 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-// @import "./global/mixins";
+@import 'global/typography';
+@import 'global/custom-modal';

@@ -1,0 +1,16 @@
+.reveal {
+  .grid-container {
+    min-width: 320px;
+    width: 80%;
+
+    @include breakpoint(medium) {
+      max-width: 360px;
+    }
+  }
+  @include breakpoint(small only) {
+    margin: 0 auto;
+    width: 94%;
+    max-width: 94%;
+    min-height: 0;
+  }
+}
