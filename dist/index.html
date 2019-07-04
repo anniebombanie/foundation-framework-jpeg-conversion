@@ -15,12 +15,13 @@
   <!--===== MAIN NAV MENU =====-->
   <div class="title-bar" data-responsive-toggle="menu" data-hide-for="large">
     <button class="menu-icon" type="button" data-toggle="menu"></button>
+    <div class="title-bar-title">Logo</div>
   </div>
   
   <div class="top-bar" id="menu">
     <!------- LEFT ------->
     <!-- MAIN MENU LINKS -->
-    <div class="top-bar-left">
+    <div>
       <h1>Logo</h1>
       <ul class="menu vertical">
         <li><a href="#" class="hollow button">get started</a></li>
@@ -34,31 +35,31 @@
       <div>
         <ul class="dropdown menu" data-dropdown-menu>
           <li>
-            <a href="#0">en</a>
+            <a href="#">en</a>
             <ul class="menu">
-              <li><a href="#0">brazilian portuguese</a></li>
-              <li><a href="#0">danish</a></li>
-              <li><a href="#0">dutch</a></li>
-              <li><a href="#0">finnish</a></li>
-              <li><a href="#0">french</a></li>
-              <li><a href="#0">german</a></li>
-              <li><a href="#0">hindi</a></li>
-              <li><a href="#0">italian</a></li>
-              <li><a href="#0">japanese</a></li>
-              <li><a href="#0">korean</a></li>
-              <li><a href="#0">malay</a></li>
-              <li><a href="#0">norwegian</a></li>
-              <li><a href="#0">simplified chinese</a></li>
-              <li><a href="#0">spanish</a></li>
-              <li><a href="#0">swedish</a></li>
-              <li><a href="#0">thai</a></li>
-              <li><a href="#0">traditional chinese</a></li>
+              <li><a href="#">brazilian portuguese</a></li>
+              <li><a href="#">danish</a></li>
+              <li><a href="#">dutch</a></li>
+              <li><a href="#">finnish</a></li>
+              <li><a href="#">french</a></li>
+              <li><a href="#">german</a></li>
+              <li><a href="#">hindi</a></li>
+              <li><a href="#">italian</a></li>
+              <li><a href="#">japanese</a></li>
+              <li><a href="#">korean</a></li>
+              <li><a href="#">malay</a></li>
+              <li><a href="#">norwegian</a></li>
+              <li><a href="#">simplified chinese</a></li>
+              <li><a href="#">spanish</a></li>
+              <li><a href="#">swedish</a></li>
+              <li><a href="#">thai</a></li>
+              <li><a href="#">traditional chinese</a></li>
             </ul>
           </li>
         </ul>
         <ul class="dropdown menu" data-dropdown-menu>
           <li>
-            <a href="#0">country</a>
+            <a href="#">country</a>
             <ul class="menu">
               <li>africa</li>
               <li>asia
@@ -82,22 +83,22 @@
   
         <!-- SOCIAL MENU LINKS -->
         <ul class="menu no-bullet">
-          <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></i></li>
-          <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-          <li><a href="#0"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-          <li><a href="#0"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></i></li>
+          <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
         </ul>
       </div>
     </div> <!-- /.top-bar-left -->
   
     <!------- RIGHT ------->
     <!-- SEARCH & SIGN-IN -->
-    <div class="top-bar-right">
+    <div>
       <ul class="menu">
-        <li><a href="#0"><i class="fas fa-search" aria-hidden="true"></i></a></li>
-        <li><a href="#0" data-open="signInModal">sign in <i class="fas fa-user" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fas fa-search" aria-hidden="true"></i></a></li>
+        <li><a href="#" data-open="signInModal">sign in <i class="fas fa-user" aria-hidden="true"></i></a></li>
       </ul>
-    </div> <!-- /.top-bar-right -->
+    </div>
 
     <!-- SIGN IN MODAL -->
     <div class="reveal" id="signInModal" data-reveal data-animation-in="fadeIn" data-animation-out="fadeOut" aria-labelledby="signInModal" data-close-on-esc>
@@ -128,14 +129,14 @@
               <div>
                 <input id="rememberMe" type="checkbox"><label for="rememberMe">Remember me</label>
               </div>
-              <a href="#0">Forgot Password?</a>
+              <a href="#">Forgot Password?</a>
             </div>
             <div class="grid-x align-center">
               <div class="cell small-6 align-center">
                 <button type="button" class="button expanded">Sign In</button>
               </div>
             </div>
-              <p class="text-center">Haven't an account? <a href="#0">Sign up</a></p>
+              <p class="text-center">Haven't an account? <a href="#">Sign up</a></p>
           </form>
         </div>
         <button class="close-button" data-close aria-label="Close modal" type="button">
@@ -146,12 +147,18 @@
   </div> <!-- /.top-bar -->
 
   <!--===== HERO =====-->
-  <div class="grid-y align-center align-bottom hero">
-    <div class="cell small-10">
-      <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
-    </div>
-    <div class="cell small-2">
-      <a href="#0" class="button expanded">get started now</a>
+  <div class="grid-x align-bottom hero">
+    <div class="cell">
+      <div class="grid-x align-center">
+        <div class="cell small-8">
+          <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+        </div>
+      </div>
+      <div class="grid-x align-center">
+        <div class="cell small-6">
+          <a href="#" class="button expanded">get started now</a>
+        </div>
+      </div>
     </div>
   </div>
 </header>
@@ -159,21 +166,27 @@
 <main>
   <section>
     <div class="card">
-      <img src="https://fakeimg.pl/375x235/bbdefb/90caf9">
+      <div class="card-image">
+        <img src="https://fakeimg.pl/375x235/bbdefb/90caf9">
+      </div>
       <div class="card-section">
         <h4>Lorem ipsum</h4>
         <p>Dolor sit amet consectetur adipisicing elit. Adipisci aliquam cupiditate ea illum obcaecati nostrum in.</p>
       </div>
     </div>
     <div class="card">
-      <img src="https://fakeimg.pl/375x235/bbdefb/90caf9">
+      <div class="card-image">
+        <img src="https://fakeimg.pl/375x235/bbdefb/90caf9">
+      </div>
       <div class="card-section">
         <h4>Lorem ipsum</h4>
         <p>Dolor sit amet consectetur adipisicing elit. Adipisci aliquam cupiditate ea illum obcaecati nostrum in.</p>
       </div>
     </div>
     <div class="card">
-      <img src="https://fakeimg.pl/375x235/bbdefb/90caf9">
+      <div class="card-image">
+        <img src="https://fakeimg.pl/375x235/bbdefb/90caf9">
+      </div>
       <div class="card-section">
         <h4>Lorem ipsum</h4>
         <p>Dolor sit amet consectetur adipisicing elit. Adipisci aliquam cupiditate ea illum obcaecati nostrum in.</p>
@@ -188,7 +201,7 @@
       <div class="card-section">
         <h4>Lorem ipsum</h4>
         <p class="text-center">Dolor sit amet consectetur adipisicing elit. Adipisci aliquam cupiditate ea illum obcaecati nostrum in.</p>
-        <a href="#0">learn more</a>
+        <a href="#">learn more</a>
       </div>
     </div>
     <div class="card">
@@ -196,7 +209,7 @@
       <div class="card-section">
         <h4>Lorem ipsum</h4>
         <p class="text-center">Dolor sit amet consectetur adipisicing elit. Adipisci aliquam cupiditate ea illum obcaecati nostrum in.</p>
-        <a href="#0">learn more</a>
+        <a href="#">learn more</a>
       </div>
     </div>
     <div class="card">
@@ -204,7 +217,7 @@
       <div class="card-section">
         <h4>Lorem ipsum</h4>
         <p class="text-center">Dolor sit amet consectetur adipisicing elit. Adipisci aliquam cupiditate ea illum obcaecati nostrum in.</p>
-        <a href="#0">learn more</a>
+        <a href="#">learn more</a>
       </div>
     </div>
     <div class="card">
@@ -212,7 +225,7 @@
       <div class="card-section">
         <h4>Lorem ipsum</h4>
         <p class="text-center">Dolor sit amet consectetur adipisicing elit. Adipisci aliquam cupiditate ea illum obcaecati nostrum in.</p>
-        <a href="#0">learn more</a>
+        <a href="#">learn more</a>
       </div>
     </div>
     <div class="card">
@@ -220,7 +233,7 @@
       <div class="card-section">
         <h4>Lorem ipsum</h4>
         <p class="text-center">Dolor sit amet consectetur adipisicing elit. Adipisci aliquam cupiditate ea illum obcaecati nostrum in.</p>
-        <a href="#0">learn more</a>
+        <a href="#">learn more</a>
       </div>
     </div>
     <div class="card">
@@ -228,7 +241,7 @@
       <div class="card-section">
         <h4>Lorem ipsum</h4>
         <p class="text-center">Dolor sit amet consectetur adipisicing elit. Adipisci aliquam cupiditate ea illum obcaecati nostrum in.</p>
-        <a href="#0">learn more</a>
+        <a href="#">learn more</a>
       </div>
     </div>
     <div class="card">
@@ -236,7 +249,7 @@
       <div class="card-section">
         <h4>Lorem ipsum</h4>
         <p class="text-center">Dolor sit amet consectetur adipisicing elit. Adipisci aliquam cupiditate ea illum obcaecati nostrum in.</p>
-        <a href="#0">learn more</a>
+        <a href="#">learn more</a>
       </div>
     </div>
   </section>
@@ -264,7 +277,7 @@
         <p class="text-center">Dolor sit amet consectetur adipisicing elit. Adipisci aliquam cupiditate ea illum obcaecati nostrum in.</p>
       </div>
     </div>
-    <a href="#0" class="button">join</a>
+    <a href="#" class="button">join</a>
   </section>
 </main>
 
@@ -280,10 +293,10 @@
   </ul>
   <!-- SOCIAL MENU LINKS -->
   <ul class="menu no-bullet">
-    <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-    <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-    <li><a href="#0"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-    <li><a href="#0"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+    <li><a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
   </ul>
 
   <ul class="menu">
