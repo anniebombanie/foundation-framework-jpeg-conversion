@@ -2,11 +2,27 @@ section {
   h3 {
     font-size: 1.5rem;
   }
+
+  h4 {
+    font-size: 1.2rem;
+  }
   
   p {
     font-size: .9rem;
     font-weight: 300;
     margin-bottom: 0;
+  }
+  
+  .button.clear {
+    font-weight: 400;
+  }
+
+  .card {
+    border: none;
+  }
+
+  .card-section {
+    text-align: center;
   }
 
   &.intro {
@@ -21,15 +37,18 @@ section {
     }
   }
 
-  .button.clear {
-    font-weight: 400;
+  &.benefits {
+    padding: 3rem 1rem;
+    background-color: $light-blue;
+
+    h3 {
+      margin-bottom: 1.5rem;
+    }
+
+    .card {
+      margin-bottom: 2.8rem;
+      padding: 2rem;
+    }
   }
 
-  .card {
-    border: none;
-  }
-
-  .card-section {
-    text-align: center;
-  }
 }
