@@ -5,3 +5,13 @@ h4,
   text-align: center;
   text-transform: capitalize;  
 }
+
+.cover {
+  object-fit: cover;
+  max-width: auto;
+  width: auto;
+}
+
+.img-container {
+  margin: 0 auto;
+}
