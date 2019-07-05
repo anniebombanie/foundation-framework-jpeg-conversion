@@ -19,6 +19,15 @@ footer {
     margin-bottom: 1.5rem;
   }
 
+  .logo {
+    @include breakpoint(large) {
+      justify-content: left;
+      h1 {
+        text-align: left;
+      }
+    }
+  }
+
   .footer-main-menu {
     margin-bottom: 2rem;
 
@@ -26,6 +35,23 @@ footer {
       font-size: 1.2rem;
       font-weight: 300;
       margin-bottom: .4rem;
+
+      @include breakpoint(large) {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  
+  .footer-sub-menu {
+    .social {
+      @include breakpoint(large) {
+        justify-content: left;
+      }
+    }
+    .legal {
+      @include breakpoint(large) {
+        justify-content: right;
+      }
     }
   }
 
