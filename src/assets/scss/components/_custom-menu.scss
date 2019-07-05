@@ -25,11 +25,11 @@
 
 .top-nav,
 .top-nav ul {
-  color: #fff;
+  color: $white;
   background-color: $dark-blue;
 
   a {
-    color: #fff;
+    color: $white;
     font-size: 1.15rem;
     margin-bottom: .5rem;
     font-weight: 300;
@@ -43,9 +43,9 @@
   position: absolute;
 
   .button.hollow {
-    color: #fff;
+    color: $white;
     font-weight: 400;
-    border-color: #fff;
+    border-color: $white;
     &:hover {
       background-color: #0b3c89
     }
@@ -59,7 +59,7 @@
       margin-bottom: .9rem;
       padding: .7em;
       &::after {
-        @include css-triangle(5px, #fff, down);
+        @include css-triangle(5px, $white, down);
         position: relative;
         top: 0.4em; // Aligns the arrow with the text of the button
         float: right;

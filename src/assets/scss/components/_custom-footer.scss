@@ -1,0 +1,41 @@
+footer {
+  padding: 3rem 1rem 1.5rem;
+  background-color: $dark-blue;
+
+  a,
+  a.button,
+  li {
+    color: $white;
+  }
+
+  li.divider {
+    padding-top: .35rem;
+  }
+
+  h1 {
+    color: $white;
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+
+  .footer-main-menu {
+    margin-bottom: 2rem;
+
+    a {
+      font-size: 1.2rem;
+      font-weight: 300;
+      margin-bottom: .4rem;
+    }
+  }
+
+  .social {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .button.clear {
+    color: $white;
+    font-weight: 300;
+  }
+}
