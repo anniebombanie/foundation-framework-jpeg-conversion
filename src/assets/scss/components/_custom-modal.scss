@@ -1,4 +1,4 @@
-.reveal {
+.sign-in.reveal {
   padding: 5rem 0;
   width: 65%;
   min-width: 600px;
@@ -59,4 +59,12 @@
     height: auto;
     min-height: auto;
   }
+}
+
+.languages.reveal,
+.countries.reveal {
+  padding-top: 3rem;
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: 1.2rem;
 }

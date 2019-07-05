@@ -40,7 +40,8 @@
       <div class="grid-x align-center">
         <div class="cell small-4">
           <a href="#" class="button expanded" data-open="languagesModal">en</a>
-          <ul class="menu languages vertical" id="languagesModal" data-reveal>
+          <!-- LANGUAGES MODAL-->
+          <ul class="menu reveal languages vertical" id="languagesModal" data-reveal data-animation-in="fadeIn" data-animation-out="fadeOut">
             <li><a href="#">brazilian portuguese</a></li>
             <li><a href="#">danish</a></li>
             <li><a href="#">dutch</a></li>
@@ -66,7 +67,9 @@
       <div class="grid-x align-center">
         <div class="cell small-4">
           <a href="#" class="button expanded" data-open="countriesModal">country</a>
-          <ul class="menu countries vertical" id="countriesModal" data-reveal>
+          <!-- COUNTRIES MODAL-->
+          <ul class="menu reveal countries vertical" id="countriesModal" data-reveal data-animation-in="fadeIn" data-animation-out="fadeOut">
+            <li>Select Country</li>
             <li>africa</li>
             <li>asia
               <ul class="menu">
@@ -109,7 +112,7 @@
   </div> <!-- /.top-nav -->
 
   <!-- SIGN IN MODAL -->
-  <div class="reveal" id="signInModal" data-reveal data-animation-in="fadeIn" data-animation-out="fadeOut" aria-labelledby="signInModal" data-close-on-esc>
+  <div class="sign-in reveal" id="signInModal" data-reveal data-animation-in="fadeIn" data-animation-out="fadeOut" aria-labelledby="signInModal" data-close-on-esc>
     <div class="grid-container">
       <div class="grid-y grid-padding-y">
         <h2 id="signInModal">sign in</h2>
