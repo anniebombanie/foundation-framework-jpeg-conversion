@@ -1,137 +1,144 @@
 <header>
   <!--===== MAIN NAV MENU =====-->
-  <div class="title-bar" data-responsive-toggle="menu" data-hide-for="large">
-    <button class="menu-icon" type="button" data-toggle="menu"></button>
-    <div class="title-bar-title">Logo</div>
-  </div>
-  
-  <div class="top-bar" id="menu">
-    <!------- LEFT ------->
-    <!-- MAIN MENU LINKS -->
-    <div>
-      <h1>Logo</h1>
-      <ul class="menu vertical">
-        <li><a href="#" class="hollow button">get started</a></li>
-        <li><a href="#" class="clear button">about us</a></li>
-        <li><a href="#" class="clear button">resources</a></li>
-        <li><a href="#" class="clear button">library</a></li>
-        <li><a href="#" class="clear button">contact</a></li>
-      </ul>
-        
-      <!-- LANG & COUNTRY MENU LINKS -->
-      <div>
-        <ul class="dropdown menu" data-dropdown-menu>
-          <li>
-            <a href="#">en</a>
-            <ul class="menu">
-              <li><a href="#">brazilian portuguese</a></li>
-              <li><a href="#">danish</a></li>
-              <li><a href="#">dutch</a></li>
-              <li><a href="#">finnish</a></li>
-              <li><a href="#">french</a></li>
-              <li><a href="#">german</a></li>
-              <li><a href="#">hindi</a></li>
-              <li><a href="#">italian</a></li>
-              <li><a href="#">japanese</a></li>
-              <li><a href="#">korean</a></li>
-              <li><a href="#">malay</a></li>
-              <li><a href="#">norwegian</a></li>
-              <li><a href="#">simplified chinese</a></li>
-              <li><a href="#">spanish</a></li>
-              <li><a href="#">swedish</a></li>
-              <li><a href="#">thai</a></li>
-              <li><a href="#">traditional chinese</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul class="dropdown menu" data-dropdown-menu>
-          <li>
-            <a href="#">country</a>
-            <ul class="menu">
-              <li>africa</li>
-              <li>asia
-                <ul class="menu">
-                  <li>china</li>
-                  <li>greenfields indonesia</li>
-                  <li>india</li>
-                  <li>iran</li>
-                  <li>japan</li>
-                  <li>korea (south)</li>
-                  <li>pakistan</li>
-                </ul>
-              </li>
-              <li>australia</li>
-              <li>europe - middle east</li>
-              <li>latin america</li>
-              <li>north america</li>
-            </ul>
-          </li>
-        </ul>
-  
-        <!-- SOCIAL MENU LINKS -->
-        <ul class="menu no-bullet">
-          <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></i></li>
-          <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+  <div class="grid-x align-justify title-bar" data-responsive-toggle="menu" data-hide-for="large">
+    <div class="cell small-6">
+      <button class="menu-icon" type="button" data-toggle="menu"></button>
+      <div class="title-bar-title">Logo</div>
+    </div>
+    <!-- SEARCH & SIGN-IN -->
+    <div class="cell small-6">
+        <ul class="menu align-right">
+          <li><a href="#" class="search"><i class="fas fa-search" aria-hidden="true"></i></a></li>
+          <li><a href="#" data-open="signInModal">Sign In <i class="fas fa-user" aria-hidden="true"></i></a></li>
         </ul>
       </div>
-    </div> <!-- /.top-bar-left -->
+  </div>
   
-    <!------- RIGHT ------->
-    <!-- SEARCH & SIGN-IN -->
-    <div>
-      <ul class="menu">
-        <li><a href="#"><i class="fas fa-search" aria-hidden="true"></i></a></li>
-        <li><a href="#" data-open="signInModal">sign in <i class="fas fa-user" aria-hidden="true"></i></a></li>
+  <div class="top-nav grid-y align-spaced" id="menu" data-animate="slide-in-down slide-out-up">
+    <!-- MAIN MENU LINKS -->
+    <div class= "main-menu">
+      <h1 class="show-for-large">Logo</h1>
+      <ul class="menu vertical">
+        <li><a href="#" class="hollow button">get started</a></li>
+        <li><a href="#" class="button">about us</a></li>
+        <li><a href="#" class="button">resources</a></li>
+        <li><a href="#" class="button">library</a></li>
+        <li><a href="#" class="button">contact</a></li>
       </ul>
     </div>
+        
+    <!-- LANG & COUNTRY MENU LINKS -->
+    <div class="sub-menu">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li>
+          <a href="#">en</a>
+          <ul class="menu">
+            <li><a href="#">brazilian portuguese</a></li>
+            <li><a href="#">danish</a></li>
+            <li><a href="#">dutch</a></li>
+            <li><a href="#">finnish</a></li>
+            <li><a href="#">french</a></li>
+            <li><a href="#">german</a></li>
+            <li><a href="#">hindi</a></li>
+            <li><a href="#">italian</a></li>
+            <li><a href="#">japanese</a></li>
+            <li><a href="#">korean</a></li>
+            <li><a href="#">malay</a></li>
+            <li><a href="#">norwegian</a></li>
+            <li><a href="#">simplified chinese</a></li>
+            <li><a href="#">spanish</a></li>
+            <li><a href="#">swedish</a></li>
+            <li><a href="#">thai</a></li>
+            <li><a href="#">traditional chinese</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li>
+          <a href="#">country</a>
+          <ul class="menu">
+            <li>africa</li>
+            <li>asia
+              <ul class="menu">
+                <li>china</li>
+                <li>greenfields indonesia</li>
+                <li>india</li>
+                <li>iran</li>
+                <li>japan</li>
+                <li>korea (south)</li>
+                <li>pakistan</li>
+              </ul>
+            </li>
+            <li>australia</li>
+            <li>europe - middle east</li>
+            <li>latin america</li>
+            <li>north america</li>
+          </ul>
+        </li>
+      </ul>
 
-    <!-- SIGN IN MODAL -->
-    <div class="reveal" id="signInModal" data-reveal data-animation-in="fadeIn" data-animation-out="fadeOut" aria-labelledby="signInModal" data-close-on-esc>
-      <div class="grid-container">
-        <div class="grid-y grid-padding-y">
-          <h2 id="signInModal">sign in</h2>
-          <div class="grid-x grid-margin-x align-justify">
-            <div class="cell small-6">
-              <button type="button" class="button expanded"><i class="fab fa-facebook-f" aria-hidden="true"></i>Facebook</button>
+      <!-- SOCIAL MENU LINKS -->
+      <ul class="menu no-bullet">
+        <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></i></li>
+        <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+      </ul>
+    </div> <!-- /.sub-menu -->
+
+    <!-- SEARCH & SIGN-IN -->
+    <div class="show-for-large">
+      <ul class="menu">
+        <li><a href="#"><i class="fas fa-search" aria-hidden="true"></i></a></li>
+        <li><a href="#" data-open="signInModal">Sign In <i class="fas fa-user" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+  </div> <!-- /.top-nav -->
+
+  <!-- SIGN IN MODAL -->
+  <div class="reveal" id="signInModal" data-reveal data-animation-in="fadeIn" data-animation-out="fadeOut" aria-labelledby="signInModal" data-close-on-esc>
+    <div class="grid-container">
+      <div class="grid-y grid-padding-y">
+        <h2 id="signInModal">sign in</h2>
+        <div class="grid-x grid-margin-x align-justify">
+          <div class="cell small-6">
+            <button type="button" class="button expanded"><i class="fab fa-facebook-f" aria-hidden="true"></i>Facebook</button>
+          </div>
+          <div class="cell small-6">
+            <button type="button" class="button expanded"><i class="fab fa-google" aria-hidden="true"></i>Google</button>
+          </div>
+        </div>
+        <p class="or text-center">or</p>
+        <form>
+          <div class="cell">
+            <label>Email
+              <input type="text" placeholder="Email">
+            </label>
+          </div>
+          <div class="cell">
+            <label>Password
+              <input type="email" placeholder="Password">
+            </label>
+          </div>
+          <div class="password grid-x align-justify">
+            <div>
+              <input id="rememberMe" type="checkbox"><label for="rememberMe">Remember me</label>
             </div>
-            <div class="cell small-6">
-              <button type="button" class="button expanded"><i class="fab fa-google" aria-hidden="true"></i>Google</button>
+            <a href="#">Forgot Password?</a>
+          </div>
+          <div class="grid-x align-center">
+            <div class="cell small-6 align-center">
+              <button type="button" class="button expanded">Sign In</button>
             </div>
           </div>
-          <p class="or text-center">or</p>
-          <form>
-            <div class="cell">
-              <label>Email
-                <input type="text" placeholder="Email">
-              </label>
-            </div>
-            <div class="cell">
-              <label>Password
-                <input type="email" placeholder="Password">
-              </label>
-            </div>
-            <div class="password grid-x align-justify">
-              <div>
-                <input id="rememberMe" type="checkbox"><label for="rememberMe">Remember me</label>
-              </div>
-              <a href="#">Forgot Password?</a>
-            </div>
-            <div class="grid-x align-center">
-              <div class="cell small-6 align-center">
-                <button type="button" class="button expanded">Sign In</button>
-              </div>
-            </div>
-              <p class="text-center">Haven't an account? <a href="#">Sign up</a></p>
-          </form>
-        </div>
-        <button class="close-button" data-close aria-label="Close modal" type="button">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div> <!-- /.grid-container -->
-    </div> <!-- /.reveal -->
-  </div> <!-- /.top-bar -->
+            <p class="text-center">Haven't an account? <a href="#">Sign up</a></p>
+        </form>
+      </div>
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div> <!-- /.grid-container -->
+  </div> <!-- /.reveal -->
 
   <!--===== HERO =====-->
   <div class="grid-x align-bottom hero">

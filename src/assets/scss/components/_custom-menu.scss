@@ -1,0 +1,49 @@
+.title-bar {
+  background-color: $white;
+  color: $dark-blue;
+
+  .title-bar-title {
+    margin-left: 1rem;
+    font-size: 1.25rem;
+  }
+
+  .search {
+    padding-right: 0;
+  }
+
+  .fa-user {
+    margin-left: .3rem;
+  }
+
+  .menu-icon::after {
+    /* the block itself, first line */
+    background: $dark-blue;
+    /* middle and bottom */
+    box-shadow: 0 7px 0 $dark-blue, 0 14px 0 $dark-blue;
+  }
+}
+
+.top-nav,
+.top-nav ul {
+  color: #fff;
+  background-color: $dark-blue;
+
+  a {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: capitalize;
+  }
+}
+
+.top-nav {
+  height: 100vh;
+  width: 100vw;
+  min-height: 100%;
+  position: absolute;
+
+  .button.hollow {
+    color: #fff;
+    border-color: #fff;
+  }
+}
