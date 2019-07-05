@@ -1,0 +1,35 @@
+section {
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  p {
+    font-size: .9rem;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+
+  &.intro {
+    padding: 3rem 1rem;
+    
+    .grid-x {
+      margin-bottom: 1rem;
+    }
+
+    h4 {
+      text-align: left;
+    }
+  }
+
+  .button.clear {
+    font-weight: 400;
+  }
+
+  .card {
+    border: none;
+  }
+
+  .card-section {
+    text-align: center;
+  }
+}
