@@ -37,6 +37,7 @@
         
     <!-- LANG & COUNTRY MENU LINKS -->
     <div class="grid-y sub-menu">
+      <!-- LANGUAGES -->
       <div class="grid-x align-center">
         <div class="cell small-4">
           <a href="#" class="button expanded" data-open="languagesModal">en</a>
@@ -64,30 +65,33 @@
         </div>
       </div>
 
+      <!-- COUNTRIES -->
       <div class="grid-x align-center">
         <div class="cell small-4">
           <a href="#" class="button expanded" data-open="countriesModal">country</a>
           <!-- COUNTRIES MODAL-->
-          <ul class="menu reveal countries vertical" id="countriesModal" data-reveal data-animation-in="fadeIn" data-animation-out="fadeOut">
-            <li>Select Country</li>
-            <li>africa</li>
-            <li>asia
-              <ul class="menu">
-                <li>china</li>
-                <li>greenfields indonesia</li>
-                <li>india</li>
-                <li>iran</li>
-                <li>japan</li>
-                <li>korea (south)</li>
-                <li>pakistan</li>
-              </ul>
-            </li>
-            <li>australia</li>
-            <li>europe - middle east</li>
-            <li>latin america</li>
-            <li>north america</li>
+          <div class="reveal countries" id="countriesModal" data-reveal data-animation-in="fadeIn" data-animation-out="fadeOut">
+            <ul class="vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
+              <li>Select Country</li>
+              <li><a href="#">africa</a></li>
+              <li><a href="#">asia</a>
+                <ul class="menu vertical nested">
+                  <li><a href="#">china</a></li>
+                  <li><a href="#">greenfields indonesia</a></li>
+                  <li><a href="#">india</a></li>
+                  <li><a href="#">iran</a></li>
+                  <li><a href="#">japan</a></li>
+                  <li><a href="#">korea (south)</a></li>
+                  <li><a href="#">pakistan</a></li>
+                </ul>
+              </li>
+              <li><a href="#">australia</a></li>
+              <li><a href="#">europe - middle east</a></li>
+              <li><a href="#">latin america</a></li>
+              <li><a href="#">north america</a></li>
+            </ul>
             <button class="close-button" data-close aria-label="Close reveal" type="button"><span class="show-for-sr">Close</span><span aria-hidden="true">&times;</span></button>  
-          </ul>
+          </div>
         </div>
       </div>
 
