@@ -51,18 +51,29 @@
     }
   }
 
-  .social {
-    a {
-      font-size: 1.5rem;
-    }  
-  }
-}
+  .sub-menu {
+    .button {
+      background-color: #1565c0;
+      text-align: left;
+      font-size: 1rem;
+      margin-bottom: .9rem;
+      padding: .7em;
+      &::after {
+        @include css-triangle(5px, #fff, down);
+        position: relative;
+        top: 0.4em; // Aligns the arrow with the text of the button
+        float: right;
+      }
+      &:hover {
+        background-color: #0b3c89
+      }
+    }
 
-.sub-menu {
-  .button {
-    background-color: #1565c0;
-    &:hover {
-      background-color: #0b3c89
+    .social {
+      a {
+        font-size: 1.4rem;
+        margin-top: 1.2rem;
+      }  
     }
   }
 }
