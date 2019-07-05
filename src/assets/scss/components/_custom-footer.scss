@@ -20,7 +20,7 @@ footer {
   }
 
   .logo {
-    @include breakpoint(large) {
+    @include breakpoint(medium) {
       justify-content: left;
       h1 {
         text-align: left;
@@ -44,12 +44,12 @@ footer {
   
   .footer-sub-menu {
     .social {
-      @include breakpoint(large) {
+      @include breakpoint(medium) {
         justify-content: left;
       }
     }
     .legal {
-      @include breakpoint(large) {
+      @include breakpoint(medium) {
         justify-content: right;
       }
     }

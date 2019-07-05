@@ -1,4 +1,5 @@
 section {
+  padding: 3rem 1rem;
   h3 {
     font-size: 1.5rem;
     @include breakpoint(medium) {
@@ -11,12 +12,18 @@ section {
 
   h4 {
     font-size: 1.2rem;
+    @include breakpoint(large) {
+      font-size: 1.8rem;
+    }
   }
-  
+
   p {
     font-size: .9rem;
     font-weight: 300;
     margin-bottom: 0;
+    @include breakpoint(large) {
+      font-size: 1rem;
+    }
   }
   
   .button.clear {
@@ -32,23 +39,33 @@ section {
   }
 
   &.intro {
-    padding: 3rem 1rem;
-    
     .grid-x {
       margin-bottom: 1rem;
     }
 
     h4 {
       text-align: left;
+      @include breakpoint(medium) {
+        text-align: center;
+        margin-top: 1rem;
+      }
+    }
+
+    p {
+      @include breakpoint(medium) {
+        text-align: center;
+      }
     }
   }
 
   &.benefits {
-    padding: 3rem 1rem;
     background-color: $light-blue;
 
     h3 {
       margin-bottom: 1.5rem;
+      @include breakpoint(medium) {
+        margin-bottom: 3rem;
+      }
     }
 
     .card {
