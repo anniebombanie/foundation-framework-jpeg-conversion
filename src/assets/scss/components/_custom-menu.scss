@@ -16,9 +16,9 @@
   }
 
   .menu-icon::after {
-    /* the block itself, first line */
+    /* first bar */
     background: $dark-blue;
-    /* middle and bottom */
+    /* middle and bottom bars */
     box-shadow: 0 7px 0 $dark-blue, 0 14px 0 $dark-blue;
   }
 }
@@ -30,7 +30,8 @@
 
   a {
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.15rem;
+    margin-bottom: .5rem;
     font-weight: 300;
     text-transform: capitalize;
   }
@@ -39,11 +40,29 @@
 .top-nav {
   height: 100vh;
   width: 100vw;
-  min-height: 100%;
   position: absolute;
 
   .button.hollow {
     color: #fff;
+    font-weight: 400;
     border-color: #fff;
+    &:hover {
+      background-color: #0b3c89
+    }
+  }
+
+  .social {
+    a {
+      font-size: 1.5rem;
+    }  
+  }
+}
+
+.sub-menu {
+  .button {
+    background-color: #1565c0;
+    &:hover {
+      background-color: #0b3c89
+    }
   }
 }

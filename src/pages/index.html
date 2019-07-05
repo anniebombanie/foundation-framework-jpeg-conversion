@@ -1,8 +1,12 @@
 <header>
   <!--===== MAIN NAV MENU =====-->
+  <!-- title "hamburger" bar for small/medium screens-->
   <div class="grid-x align-justify title-bar" data-responsive-toggle="menu" data-hide-for="large">
     <div class="cell small-6">
       <button class="menu-icon" type="button" data-toggle="menu"></button>
+      <!-- <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
+          <span aria-hidden="true">&times;</span>
+        </button> -->
       <div class="title-bar-title">Logo</div>
     </div>
     <!-- SEARCH & SIGN-IN -->
@@ -14,25 +18,29 @@
       </div>
   </div>
   
+  <!-- rest of menu links -->
   <div class="top-nav grid-y align-spaced" id="menu" data-animate="slide-in-down slide-out-up">
     <!-- MAIN MENU LINKS -->
-    <div class= "main-menu">
-      <h1 class="show-for-large">Logo</h1>
-      <ul class="menu vertical">
-        <li><a href="#" class="hollow button">get started</a></li>
-        <li><a href="#" class="button">about us</a></li>
-        <li><a href="#" class="button">resources</a></li>
-        <li><a href="#" class="button">library</a></li>
-        <li><a href="#" class="button">contact</a></li>
-      </ul>
-    </div>
+    <div class= "grid-x align-center main-menu">
+      <div class="cell small-6">
+        <h1 class="show-for-large">Logo</h1>
+        <ul class="menu vertical">
+          <li><a href="#" class="hollow button">get started</a></li>
+          <li><a href="#" class="button">about us</a></li>
+          <li><a href="#" class="button">resources</a></li>
+          <li><a href="./library.html" class="button">library</a></li>
+          <li><a href="#" class="button">contact</a></li>
+        </ul>
+      </div>
+    </div> <!-- /.grid-x -->
+      
         
     <!-- LANG & COUNTRY MENU LINKS -->
-    <div class="sub-menu">
-      <ul class="dropdown menu" data-dropdown-menu>
-        <li>
-          <a href="#">en</a>
-          <ul class="menu">
+    <div class="grid-y sub-menu">
+      <div class="grid-x align-center">
+        <div class="cell small-4">
+          <a href="#" class="button expanded" data-open="languagesModal">en</a>
+          <ul class="menu languages vertical" id="languagesModal" data-reveal>
             <li><a href="#">brazilian portuguese</a></li>
             <li><a href="#">danish</a></li>
             <li><a href="#">dutch</a></li>
@@ -50,13 +58,15 @@
             <li><a href="#">swedish</a></li>
             <li><a href="#">thai</a></li>
             <li><a href="#">traditional chinese</a></li>
+            <button class="close-button" data-close aria-label="Close reveal" type="button"><span class="show-for-sr">Close</span><span aria-hidden="true">&times;</span></button>    
           </ul>
-        </li>
-      </ul>
-      <ul class="dropdown menu" data-dropdown-menu>
-        <li>
-          <a href="#">country</a>
-          <ul class="menu">
+        </div>
+      </div>
+
+      <div class="grid-x align-center">
+        <div class="cell small-4">
+          <a href="#" class="button expanded" data-open="countriesModal">country</a>
+          <ul class="menu countries vertical" id="countriesModal" data-reveal>
             <li>africa</li>
             <li>asia
               <ul class="menu">
@@ -73,17 +83,20 @@
             <li>europe - middle east</li>
             <li>latin america</li>
             <li>north america</li>
+            <button class="close-button" data-close aria-label="Close reveal" type="button"><span class="show-for-sr">Close</span><span aria-hidden="true">&times;</span></button>  
           </ul>
-        </li>
-      </ul>
+        </div>
+      </div>
 
       <!-- SOCIAL MENU LINKS -->
-      <ul class="menu no-bullet">
-        <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></i></li>
-        <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
-      </ul>
+      <div class="grid-x align-center small-4">
+        <ul class="menu social">
+          <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></i></li>
+          <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
     </div> <!-- /.sub-menu -->
 
     <!-- SEARCH & SIGN-IN -->
@@ -135,6 +148,7 @@
         </form>
       </div>
       <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span class="show-for-sr">Close</span>
         <span aria-hidden="true">&times;</span>
       </button>
     </div> <!-- /.grid-container -->
