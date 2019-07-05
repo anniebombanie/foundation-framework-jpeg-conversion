@@ -34,6 +34,16 @@
     margin-bottom: .5rem;
     font-weight: 300;
     text-transform: capitalize;
+    @include breakpoint(large) {
+      font-size: 1.4rem;
+      color: $dark-blue;
+      background-color: $white;
+    }
+  }
+
+  @include breakpoint(large) {
+    color: $dark-blue;
+    background-color: $white;
   }
 }
 
@@ -42,12 +52,31 @@
   width: 100vw;
   position: absolute;
 
+  @include breakpoint(large) {
+    height: auto;
+    width: auto;
+    position: relative;
+  }
+
   .button.hollow {
     color: $white;
     font-weight: 400;
     border-color: $white;
     &:hover {
       background-color: #0b3c89
+    }
+
+    .button {
+      @include breakpoint(large) {
+        color: $white;
+        background-color: $dark-blue;
+      }
+    }
+  }
+
+  .main-menu-links ul {
+    @include breakpoint(large) {
+      justify-content: right;
     }
   }
 

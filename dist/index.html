@@ -34,146 +34,153 @@
   <!-- rest of menu links -->
   <div class="top-nav grid-y align-spaced" id="menu" data-animate="slide-in-down slide-out-up">
     <!-- MAIN MENU LINKS -->
-    <div class= "grid-x align-center main-menu">
-      <div class="cell small-6">
-        <h1 class="show-for-large">Logo</h1>
-        <ul class="menu vertical">
-          <li><a href="#" class="hollow button">get started</a></li>
-          <li><a href="#" class="button">about us</a></li>
-          <li><a href="#" class="button">resources</a></li>
-          <li><a href="./library.html" class="button">library</a></li>
-          <li><a href="#" class="button">contact</a></li>
-        </ul>
+    <div class= "grid-x align-center main-menu large-order-2">
+      <div class="grid-x small-6 large-12">
+        <div class="cell logo large-2">
+          <h1 class="show-for-large">Logo</h1>
+        </div>
+        <div class="cell large-10 main-menu-links">
+          <ul class="menu vertical large-horizontal">
+            <li><a href="#" class="hollow button hide-for-large">get started</a></li>
+            <li><a href="#" class="button">about us</a></li>
+            <li><a href="#" class="button">resources</a></li>
+            <li><a href="./library.html" class="button">library</a></li>
+            <li><a href="#" class="button">contact</a></li>
+            <li><a href="#" class="button show-for-large">get started</a></li>
+          </ul>
+        </div>
       </div>
     </div> <!-- /.grid-x -->
       
         
     <!-- LANG & COUNTRY MENU LINKS -->
-    <div class="grid-y sub-menu">
+    <div class="grid-x sub-menu">
       <!-- LANGUAGES -->
-      <div class="grid-x align-center">
-        <div class="cell small-4">
-          <a href="#" class="button expanded" data-open="languagesModal">en</a>
-          <!-- LANGUAGES MODAL-->
-          <ul class="menu reveal languages vertical" id="languagesModal" data-reveal data-animation-in="fadeIn" data-animation-out="fadeOut">
-            <li><a href="#">brazilian portuguese</a></li>
-            <li><a href="#">danish</a></li>
-            <li><a href="#">dutch</a></li>
-            <li><a href="#">finnish</a></li>
-            <li><a href="#">french</a></li>
-            <li><a href="#">german</a></li>
-            <li><a href="#">hindi</a></li>
-            <li><a href="#">italian</a></li>
-            <li><a href="#">japanese</a></li>
-            <li><a href="#">korean</a></li>
-            <li><a href="#">malay</a></li>
-            <li><a href="#">norwegian</a></li>
-            <li><a href="#">simplified chinese</a></li>
-            <li><a href="#">spanish</a></li>
-            <li><a href="#">swedish</a></li>
-            <li><a href="#">thai</a></li>
-            <li><a href="#">traditional chinese</a></li>
-            <button class="close-button" data-close aria-label="Close reveal" type="button"><span class="show-for-sr">Close</span><span aria-hidden="true">&times;</span></button> 
-          </ul>
-        </div>
-      </div>
-
-      <!-- COUNTRIES -->
-      <div class="grid-x align-center">
-        <div class="cell small-4">
-          <a href="#" class="button expanded" data-open="countriesModal">country</a>
-          <!-- COUNTRIES MODAL-->
-          <div class="reveal countries" id="countriesModal" data-reveal data-animation-in="fadeIn" data-animation-out="fadeOut">
-            <ul class="vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
-              <li>Select Country</li>
-              <li><a href="#">africa</a>
-                <ul class="cell menu vertical nested small-cell-block-y">
-                  <li><a href="#">china</a></li>
-                  <li><a href="#">greenfields indonesia</a></li>
-                  <li><a href="#">india</a></li>
-                  <li><a href="#">iran</a></li>
-                  <li><a href="#">japan</a></li>
-                  <li><a href="#">korea (south)</a></li>
-                  <li><a href="#">pakistan</a></li>
+      <div class="grid-x small-12">
+        <div class="cell">
+          <div class="grid-x small-12 align-center">
+            <div class="cell small-4">
+              <a href="#" class="button expanded" data-open="languagesModal">en</a>
+              <!-- LANGUAGES MODAL-->
+              <ul class="menu reveal languages vertical" id="languagesModal" data-reveal data-animation-in="fadeIn" data-animation-out="fadeOut">
+                <li><a href="#">brazilian portuguese</a></li>
+                <li><a href="#">danish</a></li>
+                <li><a href="#">dutch</a></li>
+                <li><a href="#">finnish</a></li>
+                <li><a href="#">french</a></li>
+                <li><a href="#">german</a></li>
+                <li><a href="#">hindi</a></li>
+                <li><a href="#">italian</a></li>
+                <li><a href="#">japanese</a></li>
+                <li><a href="#">korean</a></li>
+                <li><a href="#">malay</a></li>
+                <li><a href="#">norwegian</a></li>
+                <li><a href="#">simplified chinese</a></li>
+                <li><a href="#">spanish</a></li>
+                <li><a href="#">swedish</a></li>
+                <li><a href="#">thai</a></li>
+                <li><a href="#">traditional chinese</a></li>
+                <button class="close-button" data-close aria-label="Close reveal" type="button"><span class="show-for-sr">Close</span><span aria-hidden="true">&times;</span></button> 
+              </ul>
+            </div>
+          </div>
+          <!-- COUNTRIES -->
+          <div class="grid-x small-12 align-center">
+            <div class="cell small-4">
+              <a href="#" class="button expanded" data-open="countriesModal">country</a>
+              <!-- COUNTRIES MODAL-->
+              <div class="reveal countries" id="countriesModal" data-reveal data-animation-in="fadeIn" data-animation-out="fadeOut">
+                <ul class="vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
+                  <li>Select Country</li>
+                  <li><a href="#">africa</a>
+                    <ul class="cell menu vertical nested small-cell-block-y">
+                      <li><a href="#">china</a></li>
+                      <li><a href="#">greenfields indonesia</a></li>
+                      <li><a href="#">india</a></li>
+                      <li><a href="#">iran</a></li>
+                      <li><a href="#">japan</a></li>
+                      <li><a href="#">korea (south)</a></li>
+                      <li><a href="#">pakistan</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">asia</a>
+                    <ul class="cell menu vertical nested small-cell-block-y">
+                      <!-- right now, v scrolling doesn't work yet -->
+                      <li><a href="#">china</a></li>
+                      <li><a href="#">greenfields indonesia</a></li>
+                      <li><a href="#">india</a></li>
+                      <li><a href="#">iran</a></li>
+                      <li><a href="#">japan</a></li>
+                      <li><a href="#">korea (south)</a></li>
+                      <li><a href="#">pakistan</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">australia</a>
+                    <ul class="cell menu vertical nested small-cell-block-y">
+                      <li><a href="#">china</a></li>
+                      <li><a href="#">greenfields indonesia</a></li>
+                      <li><a href="#">india</a></li>
+                      <li><a href="#">iran</a></li>
+                      <li><a href="#">japan</a></li>
+                      <li><a href="#">korea (south)</a></li>
+                      <li><a href="#">pakistan</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">europe - middle east</a>
+                    <ul class="cell menu vertical nested small-cell-block-y">
+                      <li><a href="#">china</a></li>
+                      <li><a href="#">greenfields indonesia</a></li>
+                      <li><a href="#">india</a></li>
+                      <li><a href="#">iran</a></li>
+                      <li><a href="#">japan</a></li>
+                      <li><a href="#">korea (south)</a></li>
+                      <li><a href="#">pakistan</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">latin america</a>
+                    <ul class="cell menu vertical nested small-cell-block-y">
+                      <li><a href="#">china</a></li>
+                      <li><a href="#">greenfields indonesia</a></li>
+                      <li><a href="#">india</a></li>
+                      <li><a href="#">iran</a></li>
+                      <li><a href="#">japan</a></li>
+                      <li><a href="#">korea (south)</a></li>
+                      <li><a href="#">pakistan</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">north america</a>
+                    <ul class="cell menu vertical nested small-cell-block-y">
+                      <li><a href="#">china</a></li>
+                      <li><a href="#">greenfields indonesia</a></li>
+                      <li><a href="#">india</a></li>
+                      <li><a href="#">iran</a></li>
+                      <li><a href="#">japan</a></li>
+                      <li><a href="#">korea (south)</a></li>
+                      <li><a href="#">pakistan</a></li>
+                    </ul>
+                  </li>
                 </ul>
-              </li>
-              <li>
-                <a href="#">asia</a>
-                <ul class="cell menu vertical nested small-cell-block-y">
-                  <!-- right now, v scrolling doesn't work yet -->
-                  <li><a href="#">china</a></li>
-                  <li><a href="#">greenfields indonesia</a></li>
-                  <li><a href="#">india</a></li>
-                  <li><a href="#">iran</a></li>
-                  <li><a href="#">japan</a></li>
-                  <li><a href="#">korea (south)</a></li>
-                  <li><a href="#">pakistan</a></li>
-                </ul>
-              </li>
-              <li><a href="#">australia</a>
-                <ul class="cell menu vertical nested small-cell-block-y">
-                  <li><a href="#">china</a></li>
-                  <li><a href="#">greenfields indonesia</a></li>
-                  <li><a href="#">india</a></li>
-                  <li><a href="#">iran</a></li>
-                  <li><a href="#">japan</a></li>
-                  <li><a href="#">korea (south)</a></li>
-                  <li><a href="#">pakistan</a></li>
-                </ul>
-              </li>
-              <li><a href="#">europe - middle east</a>
-                <ul class="cell menu vertical nested small-cell-block-y">
-                  <li><a href="#">china</a></li>
-                  <li><a href="#">greenfields indonesia</a></li>
-                  <li><a href="#">india</a></li>
-                  <li><a href="#">iran</a></li>
-                  <li><a href="#">japan</a></li>
-                  <li><a href="#">korea (south)</a></li>
-                  <li><a href="#">pakistan</a></li>
-                </ul>
-              </li>
-              <li><a href="#">latin america</a>
-                <ul class="cell menu vertical nested small-cell-block-y">
-                  <li><a href="#">china</a></li>
-                  <li><a href="#">greenfields indonesia</a></li>
-                  <li><a href="#">india</a></li>
-                  <li><a href="#">iran</a></li>
-                  <li><a href="#">japan</a></li>
-                  <li><a href="#">korea (south)</a></li>
-                  <li><a href="#">pakistan</a></li>
-                </ul>
-              </li>
-              <li><a href="#">north america</a>
-                <ul class="cell menu vertical nested small-cell-block-y">
-                  <li><a href="#">china</a></li>
-                  <li><a href="#">greenfields indonesia</a></li>
-                  <li><a href="#">india</a></li>
-                  <li><a href="#">iran</a></li>
-                  <li><a href="#">japan</a></li>
-                  <li><a href="#">korea (south)</a></li>
-                  <li><a href="#">pakistan</a></li>
-                </ul>
-              </li>
-            </ul>
-            <button class="close-button" data-close aria-label="Close reveal" type="button"><span class="show-for-sr">Close</span><span aria-hidden="true">&times;</span></button>  
+                <button class="close-button" data-close aria-label="Close reveal" type="button"><span class="show-for-sr">Close</span><span aria-hidden="true">&times;</span></button>  
+              </div>
+            </div>
           </div>
         </div>
-        <!-- SEARCH & SIGN-IN -->
-        <div class="cell show-for-large">
-          <ul class="menu">
-            <li><a href="#"><i class="fas fa-search" aria-hidden="true"></i></a></li>
-            <li><a href="#" data-open="signInModal">Sign In <i class="fas fa-user" aria-hidden="true"></i></a></li>
+        <!-- SOCIAL MENU LINKS -->
+        <div class="grid-x align-center small-12 large-order-1">
+          <ul class="menu social">
+            <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i><span class="sr-only">Facebook</span></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Twitter</span></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i><span class="sr-only">LinkedIn</span></a></li>
+            <li><a href="#"><i class="fab fa-youtube" aria-hidden="true"></i><span class="sr-only">YouTube</span></a></li>
           </ul>
         </div>
       </div>
-
-      <!-- SOCIAL MENU LINKS -->
-      <div class="grid-x align-center small-4">
-        <ul class="menu social">
-          <li><a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i><span class="sr-only">Facebook</span></i></a></li>
-          <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Twitter</span></a></li>
-          <li><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i><span class="sr-only">LinkedIn</span></a></li>
-          <li><a href="#"><i class="fab fa-youtube" aria-hidden="true"></i><span class="sr-only">YouTube</span></a></li>
+      <!-- SEARCH & SIGN-IN -->
+      <div class="cell show-for-large large-2">
+        <ul class="menu">
+          <li><a href="#"><i class="fas fa-search" aria-hidden="true"></i></a></li>
+          <li><a href="#" data-open="signInModal">Sign In <i class="fas fa-user" aria-hidden="true"></i></a></li>
         </ul>
       </div>
     </div> <!-- /.sub-menu -->
@@ -235,7 +242,7 @@
         </div>
       </div>
       <div class="grid-x align-center">
-        <div class="cell small-6">
+        <div class="cell small-6 medium-3">
           <a href="#" class="button expanded">get started now</a>
         </div>
       </div>
